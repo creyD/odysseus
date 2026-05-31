@@ -1,6 +1,6 @@
 services:
   odysseus:
-    build: .
+    image: ghcr.io/pewdiepie-archdaemon/odysseus:latest
     ports:
       - "7000:7000"
     volumes:
